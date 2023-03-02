@@ -4,9 +4,10 @@ import "./App.css";
 
 function NameList() {
   const [List, setList] = useState(["ali", "raza", "zaidi"]);
-  const [name, setName] = useState("");
+  const [name, setName] = useState(() => "developer");
   const addName = () => {
     setList((prev) => [...prev, name]);
+    setName("");
   };
   return (
     <div>
