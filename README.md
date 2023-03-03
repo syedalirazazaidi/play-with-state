@@ -4,4 +4,6 @@
 - useReducer
 - useMemo
 - useCallback
+- useEffect
+- useRef
 
