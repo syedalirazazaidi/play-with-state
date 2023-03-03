@@ -1,7 +1,7 @@
 ## React-hooks
 
 - use-State
-- Live previews
+- use- Reducer
 - Fullscreen mode
 - Cross platform
 
