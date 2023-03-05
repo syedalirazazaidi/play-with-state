@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import CustomHooks from "./customHooks";
 // import App from "./App";
 // import Callback from "./callback";
 import "./index.css";
@@ -10,6 +11,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     {/* <Callback /> */}
     {/* <Useeffect /> */}
-    <UseRef />
+    {/* <UseRef /> */}
+    <CustomHooks />
   </React.StrictMode>
 );
