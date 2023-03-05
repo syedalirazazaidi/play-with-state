@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 
 function UseRef() {
-  const inputRef = useRef(null);
+  const inputRef = useRef("nami");
   inputRef.current.focus();
 
   return (
